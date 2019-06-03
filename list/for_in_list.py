@@ -8,8 +8,8 @@ for c in colors:
 print('-------------')
 
 for index, c in enumerate(colors):
-    #print(f'[{index}] - [{c}]')
-    print(f'{index} - {colors[index]}')
+    print(f'[{index}] - [{c}]')
+    # print(f'{index} - {colors[index]}')
 
 
 print('--------------')
@@ -29,6 +29,9 @@ for name, hero, universe in zip(names, heroes, universes):
 for values in zip(names, heroes, universes):
     print(f'{values}')
 
+original = [['a', 'b'], ['c', 'd'], ['e', 'f']]
+transposed = zip(*original) 
+print(list(transposed))
 
 # import time
 # start = time.time()

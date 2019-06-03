@@ -6,7 +6,6 @@ print(sum(numbers))
 # Find the largest number in a list
 print(max(numbers))
 
-
 # Find the smallest number in a list
 print(min(numbers))
 
