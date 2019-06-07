@@ -29,3 +29,4 @@ for x in data1:
     for y in x:
         print(f"{y}", end=" ")
     print()
+
