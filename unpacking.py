@@ -1,3 +1,7 @@
+i = j = k = 50
+
+a, b = 1, 2
+
 a, *b, c = range(5)
 
 print(a)
