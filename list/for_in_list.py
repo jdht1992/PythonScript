@@ -12,7 +12,7 @@ for index, c in enumerate(colors):
     # print(f'{index} - {colors[index]}')
 
 
-print('--------------')
+print('--------------') 
 
 for c in range(len(colors)):
     print(f'{c} - {colors[c]}')
