@@ -7,11 +7,11 @@ print((lambda a, b: a + b)(6,6))
 sum = (lambda a, b: a + b)(6,6)
 print(sum) 
 
-Because a lambda function is an expression, it can be named
+# Because a lambda function is an expression, it can be named
 sum_num = lambda a: a * 4
 print(sum_num(4))
 
-The example above returns the string 'odd' when the lambda argument is odd, and 'even' when the argument is even.
+# The example above returns the string 'odd' when the lambda argument is odd, and 'even' when the argument is even.
 print((lambda x:(x % 2 and 'odd' or 'even'))(4))
 
 

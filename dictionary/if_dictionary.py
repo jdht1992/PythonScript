@@ -14,3 +14,6 @@ for d in data:
         break
     else:
         print("no exixt")
+
+print('name' in data.keys())
+print('name' in data)
