@@ -4,7 +4,7 @@ dic = {
     'age': 26, 
     'greater': True, 
     'state': 'Jalisco', 
-    'location': 'Zapopan'
+    'municipality': 'Zapopan'
 }
 
 

@@ -18,7 +18,7 @@ print(list(map(squere, numbers)))
 print([squere(x) for x in numbers])
 
 def is_odd(x):
-        return bool(x % 2)
+    return bool(x % 2)
 
 print(list(filter(is_odd, numbers)))
 

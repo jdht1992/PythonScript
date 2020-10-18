@@ -19,3 +19,19 @@ print(rest)
 first, *rest = numbers
 print(first)
 print(rest)
+
+
+# NEVER UNPACK MORE THAN THREE VARIABLES WHEN FUNCTIONS RETURN MULTIPLE VALUES
+
+def get_stats(numbers):
+    minimum = min(numbers)
+    maximum = max(numbers)
+    return minimum, maximum
+
+lengths = [63, 73, 72, 60, 67, 66, 71, 61, 72, 70]
+
+# The way this works is that multiple values are returned together in a two-item tuple.
+minimum, maximum = get_stats(lengths) 
+
+print(f'Min: {minimum}, Max: {maximum}')
+
