@@ -62,23 +62,3 @@ class MyCustomeError(Exception):
         
 
 raise MyCustomeError(3, "no se pudo hacer nada")
-
-
-
-class MyCustomeError(Exception):
-    def __init__(self, obj_id, message):
-        self.obj_id = obj_id
-        self.message = message
-
-    def __str__(self):
-        response = {
-            "code": 1000,
-            "message": "Validation Failed",
-            "errors": [
-                {
-                    "code": 2031,
-                    "field": self.obj_id,
-                    "message": self.message
-                }]
-        }
-        return Response(f"{response}")
